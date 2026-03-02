@@ -1,0 +1,11 @@
+
+services:
+  python_lists:
+    build: .
+    restart: always
+    container_name: python_linked_lists
+    volumes:
+      - ./:/app/src
+    stdin_open: true
+    tty: true
+    
