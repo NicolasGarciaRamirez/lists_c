@@ -124,7 +124,7 @@ class GameServer:
 
         else:
 
-            result_message = f"{Colors.YELLOW}Juego terminado por el usuario{Colors.END}"
+            result_message = f"{Colors.WARNING}Juego terminado por el usuario{Colors.END}"
 
         results = (
             "\n==============================\n"
